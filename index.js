@@ -6,7 +6,7 @@ function clock()
     let ampm=document.getElementById('ampm');
     let datetime=new Date();
     let d=datetime.getDay();
-     let day='Monday';
+     let day='';
    switch(d)
    {
         case 1:
