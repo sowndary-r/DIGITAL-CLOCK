@@ -10,7 +10,7 @@ function clock()
    switch(d)
    {
         case 1:
-        day="Monday";
+        day="Sunday";
         break;
         case 2:
         day="Tuesday";
@@ -28,7 +28,7 @@ function clock()
         day="Saturday";
         break;
         case 7:
-        day='Sunday';
+        day="Monday";
         break;
    }
     document.getElementById('day').innerHTML=day;
